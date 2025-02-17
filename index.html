@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Metadata as comments -->
+    <!-- Current Date and Time (UTC): 2025-02-17 14:05:19 -->
+    <!-- Current User: TipLt -->
+    <title>Interactive Photo Gallery with Extended Events</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Interactive Photo Gallery</h1>
+    <p class="metadata">Created by: TipLt | Last Updated: 2025-02-17 14:05:19 UTC</p>
+    
+    <!-- This div will display the selected image -->
+    <div id="image">Hover over an image below to display here.</div>
+    
+    <!-- Gallery for displaying six images -->
+    <div id="gallery">
+      <img src="https://cdn.pixabay.com/photo/2025/01/20/20/11/shrine-9348003_1280.jpg" alt="Japanese Shrine" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+      <img src="https://wallpapercave.com/wp/wp4511436.jpg" alt="Mountain scenery" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+      <img src="https://cdn.pixabay.com/photo/2022/06/06/18/19/ocean-7246676_1280.jpg" alt="Beach scenery" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+      <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" alt="City skyline" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+      <img src="https://images.unsplash.com/photo-1522199710521-72d69614c702" alt="Forest trail" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+      <img src="https://cdn.pixabay.com/photo/2019/07/24/13/45/abstract-4359228_1280.jpg" alt="Abstract art" onmouseover="upDate(this)" onmouseout="undo()" onfocus="upDate(this)" onblur="undo()">
+    </div>
+    
+    <footer>
+      <p>Created by: TipLt</p>
+      <p>Last Updated: 2025-02-17 14:05:19 UTC</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
